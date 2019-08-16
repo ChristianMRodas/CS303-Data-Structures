@@ -1,0 +1,19 @@
+Assignment 2
+
+//a.	
+head = new Node("Bill", head);
+
+	
+//b.
+Node<string>* Sue = new Node<string>("Sue");
+Sue->next = Harry->next; 
+Harry->next = Sue; 
+
+//c.
+Node<string>* ptr = head;
+delete ptr;
+
+
+//d.
+Node<string>* ptr = tail;
+delete ptr;
